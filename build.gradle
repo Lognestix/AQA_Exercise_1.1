@@ -15,9 +15,9 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.testng:testng:7.4.0'
+    testImplementation 'junit:junit:4.13.2'
 }
 
 test {
-    useTestNG()
+    useJUnit()
 }
